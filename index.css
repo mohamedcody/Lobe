@@ -1,0 +1,253 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    background:#fff;
+
+    color:#333;
+
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header{
+
+    padding:25px 0;
+
+}
+
+.header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+.navbar ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:40px;
+
+}
+
+.navbar a{
+
+    text-decoration:none;
+
+    color:#666;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.navbar a:hover{
+
+    color:#00d6c9;
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+
+    padding:14px 30px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#00d6c9;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(0,214,201,.3);
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    text-align:center;
+
+    padding:100px 20px;
+
+}
+
+.hero h2{
+
+    font-size:65px;
+
+    margin-bottom:20px;
+
+}
+
+.hero span{
+
+    color:#00d6c9;
+
+}
+
+.hero p{
+
+    max-width:650px;
+
+    margin:auto;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+/* ===========================
+   PREVIEW
+=========================== */
+
+.preview{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:60px auto;
+
+}
+
+.preview img{
+
+    width:100%;
+
+    border-radius:25px;
+
+    transition:.4s;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.preview img:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* ===========================
+   CTA
+=========================== */
+
+.cta{
+
+    text-align:center;
+
+    padding:100px 20px;
+
+}
+
+.cta h2{
+
+    font-size:50px;
+
+    margin-bottom:30px;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:100px auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:40px;
+
+}
+
+.footer ul{
+
+    list-style:none;
+
+}
+
+.footer li{
+
+    margin:12px 0;
+
+}
+
+.footer a{
+    text-decoration:none;
+    color:#555;
+    transition:.3s;
+}
+
+.footer a:hover{
+    color:#00d6c9;
+}
